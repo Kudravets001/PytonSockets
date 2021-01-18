@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+echo "# PytonSocket" >> README.md
+git init
+git add README.md 
+git commit -m "release v1"
+git branch -M main
+git remote add origin https://github.com/Kudravets001/PytonSocket.git
+git push -u origin main
+git add server.py client.py 
